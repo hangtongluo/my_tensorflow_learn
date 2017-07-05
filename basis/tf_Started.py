@@ -8,7 +8,8 @@ print(node1, node2)
 
 #Notice that printing the nodes does not output the values 3.0 and 4.0 as you might expect
 
-#To actually evaluate the nodes, we must run the computational graph within a session. A session encapsulates the control and state of the TensorFlow runtime.
+#To actually evaluate the nodes, we must run the computational graph within a session. 
+#A session encapsulates the control and state of the TensorFlow runtime.
 
 sess = tf.Session()
 print('values:',sess.run([node1, node2]))
